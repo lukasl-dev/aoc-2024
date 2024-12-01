@@ -12,5 +12,6 @@ pkgs.mkShell {
 
   shellHook = ''
     ${pkgs.just}/bin/just setup
+    eval $(opam env)
   '';
 }
