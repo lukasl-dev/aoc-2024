@@ -30,3 +30,6 @@ _opam/
 
 # direnv
 .direnv/
+
+# input files
+inputs/
